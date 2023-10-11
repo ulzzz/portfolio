@@ -104,7 +104,7 @@ export const projects = [
     img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
     url: 'https://react-projects.netlify.app/',
     github: 'https://github.com/john-smilga',
-    title: 'first project',
+    title: 'first project test',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
   {
