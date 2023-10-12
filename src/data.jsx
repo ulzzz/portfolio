@@ -9,6 +9,8 @@ import {
   SiTailwindcss,
   SiExpress,
 } from 'react-icons/si';
+import jobify from './assets/jobify.png';
+import todolist from './assets/todolist.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'profile' },
@@ -101,26 +103,18 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project test',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: jobify,
+    url: 'https://temp-mern-jobify.onrender.com/',
+    github: 'https://github.com/ulzzz/jobify',
+    title: 'Jobify MERN App',
+    text: 'This project is taught by John Smilga on UDEMY. In this MERN project, I gained a deep understanding of the CRUD, Auth and many other things.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: todolist,
+    url: '#',
+    github: 'https://github.com/ulzzz/todo-list',
+    title: 'Simple To-do list',
+    text: 'In this project i learnt how to use basics of react hooks',
   },
 ];

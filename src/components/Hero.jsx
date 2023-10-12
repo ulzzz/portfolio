@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 const Hero = () => {
   const [resumePath, setResumePath] = useState(
-    '/../../public/EmilioLuis_Tarnate_RESUME.pdf'
+    '/EmilioLuis_Tarnate_RESUME.pdf'
   );
 
   const handleDownloadResume = () => {
@@ -24,7 +24,7 @@ const Hero = () => {
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
             Web Developer
           </p>
-          <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
+          <p className="mt-2 text-lg text-slate-700 tracking-wide">
             I'm on an exciting journey of learning and upskilling in web
             development, with a primary focus on mastering the MERN (MongoDB,
             Express, React, Node.js) stack. However, my curiosity extends to

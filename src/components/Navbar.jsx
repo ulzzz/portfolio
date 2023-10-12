@@ -18,7 +18,7 @@ const Navbar = () => {
           </h2>
           <div className="flex gap-x-3 font-medium">
             {/* Desktop navigation for larger screens */}
-            <div className={`hidden sm:flex gap-x-3 font-medium`}>
+            <div className={`hidden sm:flex gap-x-7`}>
               {links.map((link) => {
                 const { id, href, text } = link;
                 return (
@@ -41,15 +41,15 @@ const Navbar = () => {
                 {isDrawerOpen ? <BsXLg /> : <BsList />}
               </button>
               {isDrawerOpen && (
-                <div className="absolute top-16 left-0 right-0 bg-cyan-200 py-4 px-2 sm:hidden">
-                  <div className=" items-center flex flex-col gap-y-2 font-medium">
+                <div className="absolute top-20 left-7 right-7 bg-cyan-200 py-12  border-4 border-cyan-300 rounded-lg">
+                  <div className=" items-center flex flex-col gap-20 mb-2">
                     {links.map((link) => {
                       const { id, href, text } = link;
                       return (
                         <a
                           key={id}
                           href={href}
-                          className="capitalize text-lg tracking-wide hover:text-cyan-600 duration-300"
+                          className="underline decoration-cyan-500 underline-offset-4 capitalize text-xl "
                           onClick={toggleDrawer}
                         >
                           {text}
