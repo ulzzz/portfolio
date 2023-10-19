@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ['Roboto', 'sans'],
+        onest: ['Onest', 'sans-serif'],
       },
       screens: {
         sm: '640px',

@@ -49,7 +49,7 @@ const Navbar = () => {
                         <a
                           key={id}
                           href={href}
-                          className="underline decoration-cyan-500 underline-offset-4 capitalize text-xl "
+                          className="underline decoration-cyan-500 underline-offset-4 capitalize text-xl font-bold"
                           onClick={toggleDrawer}
                         >
                           {text}
