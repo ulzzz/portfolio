@@ -15,8 +15,11 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-cyan-100 py-32">
-      <div className="align-element grid md:grid-cols-2 items-center gap-8">
+    <div className="bg-cyan-100 py-8 md:py-32">
+      <div className="align-element grid items-center gap-8  md:grid-cols-2">
+        <div className="mx-auto bg-gradient-to-b from-cyan-400 mt-5  rounded-full overflow-hidden text-center ">
+          <img src={myPic} alt="Emilio Luis Tarnate" className="" />
+        </div>
         <article>
           <h1 className="text-6xl font-bold tracking-wider">
             Emilio Luis Tarnate
@@ -50,9 +53,6 @@ const Hero = () => {
             </button>
           </div>
         </article>
-        <div className=" mx-auto bg-gradient-to-b from-cyan-400 rounded-full  mt-5  overflow-hidden text-center ">
-          <img src={myPic} alt="Emilio Luis Tarnate" className="" />
-        </div>
       </div>
     </div>
   );

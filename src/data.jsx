@@ -23,6 +23,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
+    about: 'Front-end',
     level: 'Advanced',
     icon: <FaHtml5 className="h-16 w-16 text-cyan-500" />,
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
@@ -31,6 +32,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'Javascript',
+    about: 'Front-end',
     level: 'Proficient',
     icon: <FaJs className="h-16 w-16 text-cyan-500" />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
@@ -38,6 +40,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'PHP',
+    about: 'Front-end',
     level: 'Intermediate',
     icon: <SiPhp className="h-16 w-16 text-cyan-500" />,
     text: 'I utilize PHP in conjunction with MySQL to develop dynamic and database-driven websites.',
@@ -45,6 +48,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'React',
+    about: 'Front-end',
     level: 'Proficient',
     icon: <FaReact className="h-16 w-16 text-cyan-500" />,
     text: 'I harness the power of React as a crucial component of the MERN (MongoDB, Express, React, Node.js) stack, enabling the development of full-stack applications with a strong emphasis on user interface and data management.',
@@ -52,6 +56,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'NodeJS',
+    about: 'Back-end',
     level: 'Proficient',
     icon: <FaNode className="h-16 w-16 text-cyan-500" />,
     text: 'I employ Node.js to develop efficient and scalable server-side applications, delivering high-performance and real-time functionality to my projects.',
@@ -59,6 +64,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'MongoDB',
+    about: 'Back-end',
     level: 'Intermediate',
     icon: <SiMongodb className="h-16 w-16 text-cyan-500" />,
     text: 'I integrate MongoDB into my stack to establish a robust and flexible NoSQL database system, allowing me to efficiently store and manage data for various applications.',
@@ -66,6 +72,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'MySQL',
+    about: 'Back-end',
     level: 'Intermediate',
     icon: <SiMysql className="h-16 w-16 text-cyan-500" />,
     text: 'I utilize MySQL to build reliable and structured relational database systems, ensuring data integrity and seamless retrieval for my web applications.',
@@ -73,6 +80,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'BootStrap',
+    about: 'Front-end',
     level: 'Intermediate',
     icon: <SiBootstrap className="h-16 w-16 text-cyan-500" />,
     text: 'I have a foundational understanding of Bootstrap, enabling me to create responsive and visually appealing web layouts with ease.',
@@ -80,6 +88,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'Tailwind',
+    about: 'Front-end',
     level: 'Beginner',
     icon: <SiTailwindcss className="h-16 w-16 text-cyan-500" />,
     text: 'I have a grasp of the fundamentals of Tailwind CSS and am actively expanding my proficiency in this utility-first framework.',
@@ -87,6 +96,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'ExpressJS',
+    about: 'Back-end',
     level: 'Intermediate',
     icon: <SiExpress className="h-16 w-16 text-cyan-500" />,
     text: 'I have a solid grasp of the fundamentals of Express.js, allowing me to build server-side applications and APIs with efficiency and simplicity.',
@@ -94,6 +104,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'PostMan',
+    about: 'Others',
     level: 'Intermediate',
     icon: <SiPostman className="h-16 w-16 text-cyan-500" />,
     text: 'I employ Postman to thoroughly test and validate APIs, ensuring their reliability and functionality in various scenarios.',

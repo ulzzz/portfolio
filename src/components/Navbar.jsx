@@ -25,7 +25,7 @@ const Navbar = () => {
                   <a
                     key={id}
                     href={href}
-                    className="capitalize text-lg tracking-wide hover:text-cyan-600 duration-300"
+                    className="capitalize font-bold text-lg tracking-wide hover:text-cyan-400 duration-300"
                   >
                     {text}
                   </a>
@@ -41,7 +41,7 @@ const Navbar = () => {
                 {isDrawerOpen ? <BsXLg /> : <BsList />}
               </button>
               {isDrawerOpen && (
-                <div className="absolute top-20 left-7 right-7 bg-cyan-200 py-12  border-4 border-cyan-300 rounded-lg">
+                <div className="absolute top-20 left-7 right-7 bg-cyan-200 py-16  border-4 border-cyan-300 rounded-lg">
                   <div className=" items-center flex flex-col gap-20 mb-2">
                     {links.map((link) => {
                       const { id, href, text } = link;
