@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaNode } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaNode, FaGithubSquare } from 'react-icons/fa';
 import {
   SiPostman,
   SiMongodb,
@@ -8,6 +8,7 @@ import {
   SiBootstrap,
   SiTailwindcss,
   SiExpress,
+  SiVisualstudio,
 } from 'react-icons/si';
 import jobify from './assets/jobify.png';
 import todolist from './assets/todolist.png';
@@ -40,7 +41,7 @@ export const skills = [
   {
     id: nanoid(),
     title: 'PHP',
-    about: 'Front-end',
+    about: 'Back-end',
     level: 'Intermediate',
     icon: <SiPhp className="h-16 w-16 text-cyan-500" />,
     text: 'I utilize PHP in conjunction with MySQL to develop dynamic and database-driven websites.',
@@ -109,6 +110,22 @@ export const skills = [
     icon: <SiPostman className="h-16 w-16 text-cyan-500" />,
     text: 'I employ Postman to thoroughly test and validate APIs, ensuring their reliability and functionality in various scenarios.',
   },
+  {
+    id: nanoid(),
+    title: 'Git/GitHub',
+    about: 'Others',
+    level: 'Intermediate',
+    icon: <FaGithubSquare className="h-16 w-16 text-cyan-500" />,
+    text: 'I use Git and GitHub for collaborative software development projects, enabling efficient tracking of changes, seamless team collaboration, and easy version management.',
+  },
+  {
+    id: nanoid(),
+    title: 'Visual Studio Code',
+    about: 'Others',
+    level: 'Intermediate',
+    icon: <SiVisualstudio className="h-16 w-16 text-cyan-500" />,
+    text: 'I am using Visual Studio Code as my text editor, along with some extensions to ease my coding.',
+  },
 ];
 
 export const projects = [
@@ -118,7 +135,7 @@ export const projects = [
     url: 'https://temp-mern-jobify.onrender.com/',
     github: 'https://github.com/ulzzz/jobify',
     title: 'Jobify MERN App',
-    text: 'This project is taught by John Smilga on UDEMY. In this MERN project, I gained a deep understanding of the CRUD, Auth and many other things.',
+    text: 'In this MERN project, I gained a deep understanding of the CRUD, Auth and many other things.',
   },
   {
     id: nanoid(),
