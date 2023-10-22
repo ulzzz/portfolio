@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 const Hero = () => {
   const [resumePath, setResumePath] = useState(
-    '/EmilioLuis_Tarnate_RESUME.pdf'
+    '/EmilioLuis_Tarnate_RESUME.pdf',
   );
 
   const handleDownloadResume = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div className="bg-cyan-100 py-8 md:py-32">
       <div className="align-element grid items-center gap-8  md:grid-cols-2">
-        <div className="mx-auto bg-gradient-to-b from-cyan-400 mt-5  rounded-full overflow-hidden text-center ">
+        <div className="mx-auto bg-gradient-to-b from-cyan-500 mt-5  rounded-full overflow-hidden text-center ">
           <img src={myPic} alt="Emilio Luis Tarnate" className="" />
         </div>
         <article>

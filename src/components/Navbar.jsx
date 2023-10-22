@@ -10,11 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-cyan-100">
+    <nav className="bg-gradient-to-b from-cyan-500 to-cyan-100">
       <div className="align-element py-4 sm:py-5">
-        <div className="container mx-auto flex items-center justify-between">
+        <div className="container mx-auto flex items-center justify-between ">
           <h2 className="text-3xl font-bold">
-            My<span className="text-cyan-500">Portfolio</span>
+            My<span className="text-cyan-100">Portfolio</span>
           </h2>
           <div className="flex gap-x-3 font-medium">
             {/* Desktop navigation for larger screens */}
