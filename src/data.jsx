@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaNode, FaGithubSquare } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaNode, FaGitAlt } from 'react-icons/fa';
 import {
   SiPostman,
   SiMongodb,
@@ -114,8 +114,8 @@ export const skills = [
     id: nanoid(),
     title: 'Git/GitHub',
     about: 'Others',
-    level: 'Intermediate',
-    icon: <FaGithubSquare className="h-16 w-16 text-cyan-500" />,
+    level: 'Beginner',
+    icon: <FaGitAlt className="h-16 w-16 text-cyan-500" />,
     text: 'I use Git and GitHub for collaborative software development projects, enabling efficient tracking of changes, seamless team collaboration, and easy version management.',
   },
   {
