@@ -9,11 +9,15 @@ const SkillFilter = ({ skills, onFilterChange }) => {
   };
 
   return (
-    <div className="pt-4">
-      <label htmlFor="filterSkills" className="font-semibold ">
-        Filter:{' '}
+    <div className="pt-4 flex justify-center items-center md:justify-start">
+      <label htmlFor="filterSkills" className="font-semibold hidden md:inline">
+        Filter: {''}
       </label>
-      <select id="filterSkills" onChange={handleFilterChange} className="w-40">
+      <select
+        id="filterSkills"
+        onChange={handleFilterChange}
+        className="w-40 border-solid border-2 border-cyan-300 rounded-lg ml-2"
+      >
         <option value="">All</option>
         {uniqueAbouts.map((about) => (
           <option key={about} value={about}>

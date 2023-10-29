@@ -15,7 +15,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-cyan-100 py-8 md:py-32">
+    <div className="bg-cyan-100 py-8 md:py-36 text-center md:text-left ">
       <div className="align-element grid items-center gap-8  md:grid-cols-2">
         <div className="mx-auto bg-gradient-to-b from-cyan-500 mt-5  rounded-full overflow-hidden text-center ">
           <img src={myPic} alt="Emilio Luis Tarnate" className="" />
@@ -33,20 +33,20 @@ const Hero = () => {
             Express, React, Node.js) stack. However, my curiosity extends to
             various other technologies in the web development realm.
           </p>
-          <div className="flex gap-x-4 mt-4 ">
+          <div className="flex gap-x-4 mt-4 justify-center md:justify-start">
             <a href="https://github.com/ulzzz">
-              <FaGithubSquare className="h-8 w-8 text-cyan-700 hover:text-black duration-300  " />
+              <FaGithubSquare className="h-8 w-8 text-cyan-600 hover:text-black duration-300  " />
             </a>
             <a href="https://www.linkedin.com/in/emilioluistarnate/">
-              <FaLinkedin className="h-8 w-8 text-cyan-700 hover:text-black duration-300" />
+              <FaLinkedin className="h-8 w-8 text-cyan-600 hover:text-black duration-300" />
             </a>
             <a href="https://www.facebook.com/uls333/">
-              <FaFacebookSquare className="h-8 w-8 text-cyan-700 hover:text-black duration-300" />
+              <FaFacebookSquare className="h-8 w-8 text-cyan-600 hover:text-black duration-300" />
             </a>
           </div>
-          <div className="flex gap-x-4 mt-5">
+          <div className="flex gap-x-4 mt-5 justify-center md:justify-start">
             <button
-              className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 border duration-300 rounded"
+              className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 border duration-300 rounded animate-bounce-custom"
               onClick={handleDownloadResume}
             >
               Download Resume

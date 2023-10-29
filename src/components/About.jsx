@@ -13,7 +13,7 @@ const About = () => {
         />
         <article>
           <SectionTitle text="About Me" />
-          <p className="text-slate-600 mt-8 leading-loose">
+          <p className="text-slate-600 mt-8 leading-loose text-center md:text-start">
             <b>What I'm Currently Doing:</b>
             <br />
             📚 Actively learning and applying the MERN stack. 💡 Exploring

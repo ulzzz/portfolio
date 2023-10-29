@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar';
+import Navbar2 from './components/Navbar2';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import About from './components/About';
@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <>
-      <Navbar />
+      <Navbar2 />
       <Hero />
       <Skills />
       <About />
