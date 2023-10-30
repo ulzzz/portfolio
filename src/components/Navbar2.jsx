@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { links } from '../data';
+import { BsList, BsX, BsXLg } from 'react-icons/bs';
 
 const Navbar2 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar2 = () => {
   return (
     <nav className="bg-gradient-to-b from-cyan-500 to-cyan-100 px-4">
       <div className="align-element flex flex-wrap items-center justify-between p-4">
-        <h2 className="text-3xl font-bold">
+        <h2 className="text-3xl font-bold text-slate-700">
           My<span className="text-cyan-100">Portfolio</span>
         </h2>
         <div className={`hidden md:flex gap-x-7`}>
@@ -21,7 +22,7 @@ const Navbar2 = () => {
               <a
                 key={id}
                 href={href}
-                className="capitalize font-bold text-lg tracking-wide  transform hover:scale-110  hover:text-cyan-700 duration-300 "
+                className="capitalize text-slate-800 font-bold text-lg tracking-wide  transform hover:scale-110  hover:text-cyan-700 duration-300 "
               >
                 {text}
               </a>
@@ -62,13 +63,20 @@ const Navbar2 = () => {
                 <a
                   key={id}
                   href={href}
-                  className="block capitalize font-bold text-xl tracking-wide transform hover:scale-110  hover:text-cyan-700 duration-300  py-2"
+                  className="block capitalize text-slate-800 font-bold text-xl tracking-wide transform hover:scale-110  hover:text-cyan-700 duration-300  py-2"
                   onClick={toggleMenu}
                 >
                   {text}
                 </a>
               );
             })}
+            <button
+              type="button"
+              onClick={toggleMenu}
+              className=" pr-2 mt-2 text-2xl text-red-700"
+            >
+              {isMenuOpen && <BsXLg />}
+            </button>
           </ul>
         </div>
       </div>
