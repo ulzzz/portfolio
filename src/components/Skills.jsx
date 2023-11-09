@@ -17,7 +17,7 @@ const Skills = () => {
 
   return (
     <section className="py-16 align-element" id="skills">
-      <SectionTitle text="tech stack" />
+      <SectionTitle text="tech stack" className="animate-fade-right" />
       <SkillFilter skills={skills} onFilterChange={handleFilterChange} />
       <div className="py-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {filteredSkills.map((skill) => (

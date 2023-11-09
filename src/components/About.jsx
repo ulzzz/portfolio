@@ -12,7 +12,7 @@ const About = () => {
           className="w-full h-80"
         />
         <article>
-          <SectionTitle text="About Me" />
+          <SectionTitle text="About Me" className="animate-fade-left" />
           <p className="text-slate-600 mt-8 leading-loose text-center md:text-start">
             <b>What I'm Currently Doing:</b>
             <br />

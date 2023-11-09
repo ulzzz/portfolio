@@ -21,7 +21,7 @@ const Hero = () => {
           <img src={myPic} alt="Emilio Luis Tarnate" className="" />
         </div>
         <article>
-          <h1 className="text-6xl font-bold tracking-wider">
+          <h1 className="text-6xl font-bold tracking-wider ">
             Emilio Luis Tarnate
           </h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
