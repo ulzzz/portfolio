@@ -7,7 +7,7 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
       <img
         src={img}
         alt={title}
-        className="w-full object-fit rounded-t-lg h-64"
+        className="w-full object-fit rounded-t-lg h-64 border-b-2 border-cyan-200"
       />
       <div className=" p-8 text-center md:text-start">
         <h2 className="text-xl tracking-wide font-medium">{title}</h2>

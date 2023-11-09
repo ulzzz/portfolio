@@ -9,6 +9,7 @@ import {
   SiTailwindcss,
   SiExpress,
   SiVisualstudio,
+  SiTypescript,
 } from 'react-icons/si';
 import jobify from './assets/jobify.png';
 import todolist from './assets/todolist.png';
@@ -33,12 +34,21 @@ export const skills = [
 
   {
     id: nanoid(),
-    title: 'Javascript',
+    title: 'JavaScript',
     about: 'Front-end',
     level: 'Proficient',
     icon: <FaJs className="h-16 w-16 text-cyan-500" />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality.',
   },
+  {
+    id: nanoid(),
+    title: 'TypeScript',
+    about: 'Front-end',
+    level: 'Beginner',
+    icon: <SiTypescript className="h-16 w-16 text-cyan-500" />,
+    text: 'I use TypeScript to add static typing and to catch erros while coding.',
+  },
+
   {
     id: nanoid(),
     title: 'PHP',

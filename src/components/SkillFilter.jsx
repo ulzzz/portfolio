@@ -16,7 +16,7 @@ const SkillFilter = ({ skills, onFilterChange }) => {
       <select
         id="filterSkills"
         onChange={handleFilterChange}
-        className="w-40 border-solid border-2 border-cyan-300 rounded-lg ml-2"
+        className="w-45 border-solid border-2 border-cyan-300 rounded-lg ml-2"
       >
         <option value="">All</option>
         {uniqueAbouts.map((about) => (
