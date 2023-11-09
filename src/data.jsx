@@ -12,6 +12,7 @@ import {
 } from 'react-icons/si';
 import jobify from './assets/jobify.png';
 import todolist from './assets/todolist.png';
+import booklist from './assets/booklist.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'profile' },
@@ -140,9 +141,17 @@ export const projects = [
   {
     id: nanoid(),
     img: todolist,
-    url: '#',
+    url: '',
     github: 'https://github.com/ulzzz/todo-list',
     title: 'Simple To-do list',
     text: 'In this project i learnt how to use basics of react hooks',
+  },
+  {
+    id: nanoid(),
+    img: booklist,
+    url: '',
+    github: 'https://github.com/ulzzz/todo-list',
+    title: 'Book Lists',
+    text: 'MERN Stack complete CRUD operations',
   },
 ];
